@@ -1,0 +1,45 @@
+.container {
+  box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px rgb(255, 255, 255),
+    0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+  background-color: white;
+  border-radius: 10px;
+  height: 750px;
+  font-size: 16px;
+  font-weight: 500;
+  margin: 10px;
+  padding: 5px;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+}
+
+.input-container {
+  display: flex;
+
+  width: 100%;
+  text-align: center;
+  margin-top: 10px;
+}
+.table {
+  overflow: scroll;
+  height: 70%;
+  text-align: left;
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  border: 1px solid rgb(0, 0, 0);
+}
+thead {
+  /* position: absolute; */
+  background-color: blue;
+  color: antiquewhite;
+}
+
+th,
+td {
+  border: 1px solid black;
+}

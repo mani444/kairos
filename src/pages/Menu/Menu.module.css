@@ -1,0 +1,32 @@
+.MenuContainer {
+  /* background-color: #617a85; */
+}
+.Menu {
+  font-size: 0.8em;
+  display: flex;
+  flex-flow: row;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Menu2 {
+  padding: 10px;
+}
+
+.Nav {
+  gap: 10px;
+  margin-left: 10px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+.MenuRight {
+  margin-right: 40px;
+}
+.Gap {
+  gap: 10px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
